@@ -168,9 +168,16 @@ Expected: **High coverage reports following TDD principles**.
 
 ---
 
-## 📸 Screenshots  
+## 📸 📁 Screenshots (Project Output)
 
-> *(Add screenshots of your Angular dashboard, login screen, API responses from Postman here)*  
+### 1️⃣ Registration Page
+![Registration Page](Registration.png)
+
+### 1️⃣ Login Page
+![Login Page](LoginPage.png)
+
+### 1️⃣ Add Sweets
+![Add Sweets](addSweets.png)
 
 ---
 
