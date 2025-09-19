@@ -1,42 +1,46 @@
-# 🍬 Sweet-Shop-Management-System 
 
-A full-stack **Sweet Shop Management System** designed as a **TDD Kata project**.  
-This project demonstrates **backend API development, frontend implementation, database management, authentication, and testing** using modern tools and best practices.  
+# 🍬 Sweet-Shop-Management-System  
+
+A full-stack **Sweet Shop Management System** built as a **TDD Kata project**.  
+This system demonstrates backend API development, database integration, frontend UI, authentication, and automated testing, following **modern development workflows**.  
 
 ---
 
 ## 🎯 Objective  
 
-The goal of this project is to design, build, and test a **complete Sweet Shop Management System** with:  
-- A secure backend API  
-- Database integration  
-- A user-friendly Angular frontend  
-- Full testing support  
-- Deployment-ready workflows  
+The goal of this kata is to **design, build, and test** a complete Sweet Shop Management System that covers:  
+- Secure backend APIs  
+- Database management  
+- Angular frontend  
+- Authentication and authorization  
+- TDD practices with high test coverage  
+- AI-assisted development  
 
 ---
 
 ## ✨ Features  
 
 - 👤 **User Authentication**  
-  - Register and login  
-  - JWT-based token authentication  
+  - Register & login with credentials  
+  - JWT-based authentication  
+  - Role-based access (User/Admin)  
 
 - 🍭 **Sweet Management**  
-  - Add, update, and delete sweets  
-  - Purchase sweets (quantity decreases accordingly)  
+  - Add, update, delete sweets (Admin only)  
+  - Purchase sweets (decrease stock)  
+  - Restock sweets (Admin only)  
 
-- 📦 **Order Handling**  
+- 📦 **Orders**  
   - Create and manage orders  
   - Validate stock before purchase  
 
-- 📊 **Dashboard**  
-  - View sweets list  
-  - Search and filter sweets  
+- 🔎 **Search & Filter**  
+  - Search sweets by name, category, or price range  
+  - Filter sweets easily in dashboard  
 
-- 🛠 **Modern Dev Practices**  
-  - TDD-driven (includes unit tests)  
-  - Uses AI tools for faster workflow  
+- 📊 **Dashboard**  
+  - List all available sweets  
+  - Interactive UI with real-time updates  
 
 ---
 
@@ -45,19 +49,20 @@ The goal of this project is to design, build, and test a **complete Sweet Shop M
 ### Backend  
 - **Java 21 + Spring Boot 3.5.5**  
 - **Spring Security (JWT)**  
-- **Spring Data JPA (Hibernate)**  
+- **Spring Data JPA + Hibernate**  
 
 ### Database  
-- PostgreSQL / MySQL / SQLite (configurable)  
+- PostgreSQL (primary)  
+- MySQL / SQLite (configurable)  
 
 ### Frontend  
 - **Angular 17**  
-- **Bootstrap / Material UI**  
+- **Bootstrap + Angular Material**  
 
 ### Dev Tools  
-- Maven  
-- JUnit 5 + Mockito (testing)  
-- Postman (API testing)  
+- **Maven** (build tool)  
+- **JUnit 5 + Mockito** (testing)  
+- **Postman** (API testing)  
 
 ---
 
@@ -65,22 +70,26 @@ The goal of this project is to design, build, and test a **complete Sweet Shop M
 
 ### 1️⃣ Clone Repository  
 ```bash
-git clone https://github.com/yourusername/sweetshop.git
-cd sweetshop
+git clone https://github.com/yourusername/sweetshop-management-system.git
+cd sweetshop-management-system
 ```
+
+---
 
 ### 2️⃣ Backend Setup (Spring Boot)  
 ```bash
-cd backend
+cd SweetShop
 mvn clean install
 mvn spring-boot:run
 ```
 
 Backend runs on: **http://localhost:8080**
 
+---
+
 ### 3️⃣ Frontend Setup (Angular)  
 ```bash
-cd frontend
+cd sweetshop-frontend
 npm install
 ng serve
 ```
@@ -127,36 +136,62 @@ Frontend runs on: **http://localhost:4200**
 
 ## 📡 API Endpoints  
 
-| Endpoint              | Method | Description                  |
-|-----------------------|--------|------------------------------|
-| `/api/auth/register`  | POST   | Register a new user          |
-| `/api/auth/login`     | POST   | Login and get JWT token      |
-| `/api/sweets`         | GET    | Get all sweets               |
-| `/api/sweets/{id}`    | GET    | Get sweet by ID              |
-| `/api/sweets`         | POST   | Add a new sweet              |
-| `/api/sweets/{id}`    | PUT    | Update sweet                 |
-| `/api/sweets/{id}`    | DELETE | Delete sweet                 |
-| `/api/sweets/{id}/purchase`| POST   | Purchase sweet (decrease qty)|
+| Endpoint                   | Method | Description                     |
+|----------------------------|--------|---------------------------------|
+| `/api/auth/register`       | POST   | Register a new user             |
+| `/api/auth/login`          | POST   | Login and get JWT token         |
+| `/api/sweets`              | GET    | Get all sweets                  |
+| `/api/sweets/search`       | GET    | Search sweets                   |
+| `/api/sweets/{id}`         | GET    | Get sweet by ID                 |
+| `/api/sweets`              | POST   | Add a new sweet (Admin only)    |
+| `/api/sweets/{id}`         | PUT    | Update sweet (Admin only)       |
+| `/api/sweets/{id}`         | DELETE | Delete sweet (Admin only)       |
+| `/api/sweets/{id}/purchase`| POST   | Purchase sweet (decrease qty)   |
+| `/api/sweets/{id}/restock` | POST   | Restock sweet (Admin only)      |
 
 ---
 
 ## ✅ Testing  
 
-Run backend tests:  
+### Backend Tests  
 ```bash
+cd SweetShop
 mvn test
 ```
 
-Run frontend tests:  
+### Frontend Tests  
 ```bash
+cd sweetshop-frontend
 ng test
 ```
 
+Expected: **High coverage reports following TDD principles**.  
+
 ---
 
-## 📸 Screenshots (Demo)  
+## 📸 Screenshots  
 
-> *(Add screenshots of your Angular frontend and API responses here)*  
+> *(Add screenshots of your Angular dashboard, login screen, API responses from Postman here)*  
+
+---
+
+## 🤖 My AI Usage  
+
+This project was developed with **AI-assisted workflows** to improve efficiency.  
+
+- **Tools Used**:  
+  - ChatGPT (for boilerplate generation, debugging help, and README creation)  
+  - GitHub Copilot (for auto-completion and unit test suggestions)  
+
+- **How AI Helped**:  
+  - Generated initial **Spring Boot boilerplate code** (controllers, services).  
+  - Helped in writing **JUnit + Mockito unit tests**.  
+  - Suggested **Angular form validation snippets**.  
+  - Drafted this **README.md** file structure.  
+
+- **Reflection**:  
+  AI tools accelerated development but did not replace manual coding.  
+  I reviewed, modified, and tested all AI-generated code to ensure correctness and maintainability.  
 
 ---
 
