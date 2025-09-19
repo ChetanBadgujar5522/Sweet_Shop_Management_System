@@ -103,9 +103,9 @@ Frontend runs on: **http://localhost:4200**
    ```http
    POST /api/auth/register
    {
-     "username": "john",
-     "password": "secret123",
-     "role": "USER"
+     "username": "root1",
+     "password": "Chetan@#5522",
+     "role": "ROLE_USER"
    }
    ```
 
@@ -113,8 +113,8 @@ Frontend runs on: **http://localhost:4200**
    ```http
    POST /api/auth/login
    {
-     "username": "john",
-     "password": "secret123"
+     "username": "root1",
+     "password": "Chetan@#5522"
    }
    ```
 
@@ -128,7 +128,7 @@ Frontend runs on: **http://localhost:4200**
 4. **Use Token for Protected APIs**  
    ```http
    GET /api/sweets
-   Authorization: Bearer <your_token>
+   Authorization: Bearer eyJhbGciOiJIUzM4NiJ9.eyJzdWIiOiJyb290MSIsInJvbGUiOiJST0xFX1VTRVIiLCJpYXQiOjE3MTgyMTU4NksImV4cCI6MTc1ODMwMjE00.eEskbpT8xmJcuim_q2C-hnt2NF6WNUpShCw9mYeqsMPgkUC8WiParLYn0aRMS0QAb
    ```
 
 ---
