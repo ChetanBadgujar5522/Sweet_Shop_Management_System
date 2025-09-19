@@ -1,4 +1,3 @@
-
 # 🍬 Sweet-Shop-Management-System  
 
 A full-stack **Sweet Shop Management System** built as a **TDD Kata project**.  
@@ -182,7 +181,7 @@ Expected: **High coverage reports following TDD principles**.
 ### 4️⃣ Add Sweets
 ![Add Sweets](screenshots/addSweets.png)
 
-### 5️⃣ Generate Token
+### 5️⃣ Generate JWT Token
 ![Generate Token](screenshots/GenerateToken.png)
 
 ---
