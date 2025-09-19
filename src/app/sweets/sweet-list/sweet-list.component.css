@@ -1,0 +1,31 @@
+h3 {
+  color: #d63384;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  font-size: 18px;
+  color: #343a40;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+button {
+  border-radius: 8px;
+  margin-top: 5px;
+}

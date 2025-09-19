@@ -1,0 +1,8 @@
+<div class="col-md-6 offset-md-3">
+  <h3>Login</h3>
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <input formControlName="username" placeholder="Username" class="form-control mb-2" />
+    <input formControlName="password" type="password" placeholder="Password" class="form-control mb-2" />
+    <button class="btn btn-primary">Login</button>
+  </form>
+</div>

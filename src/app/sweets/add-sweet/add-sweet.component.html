@@ -1,0 +1,10 @@
+<div class="col-md-6 offset-md-3">
+  <h3>Add Sweet</h3>
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <input formControlName="name" class="form-control mb-2" placeholder="Name" />
+    <input formControlName="category" class="form-control mb-2" placeholder="Category" />
+    <input formControlName="price" class="form-control mb-2" placeholder="Price" type="number" />
+    <input formControlName="quantity" class="form-control mb-2" placeholder="Quantity" type="number" />
+    <button class="btn btn-primary">Add</button>
+  </form>
+</div>
