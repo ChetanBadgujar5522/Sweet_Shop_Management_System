@@ -175,14 +175,14 @@ Expected: **High coverage reports following TDD principles**.
 ### 2️⃣ Login Page
 ![Add Sweets Updated](screenshots/LoginPage.png)
 
-### 3️⃣ Login Token  
+### 3️⃣ Generate JWT Token
+![Generate Token](screenshots/GenerateToken.png)
+
+### 4️⃣ Login Token  
 ![Login Page](screenshots/Login.png)
 
-### 4️⃣ Add Sweets
+### 5️⃣ Add Sweets
 ![Add Sweets](screenshots/addSweets.png)
-
-### 5️⃣ Generate JWT Token
-![Generate Token](screenshots/GenerateToken.png)
 
 ---
 
