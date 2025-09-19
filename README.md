@@ -52,8 +52,7 @@ The goal of this kata is to **design, build, and test** a complete Sweet Shop Ma
 - **Spring Data JPA + Hibernate**  
 
 ### Database  
-- PostgreSQL (primary)  
-- MySQL / SQLite (configurable)  
+- PostgreSQL  
 
 ### Frontend  
 - **Angular 17**  
