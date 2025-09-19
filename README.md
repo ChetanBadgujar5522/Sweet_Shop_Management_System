@@ -121,7 +121,7 @@ Frontend runs on: **http://localhost:4200**
 3. **Receive JWT Token**  
    ```json
    {
-     "token": "eyJhbGciOiJIUzI1..."
+     "token": "eyJhbGciOiJIUzM4NiJ9.eyJzdWIiOiJyb290MSIsInJvbGUiOiJST0xFX1VTRVIiLCJpYXQiOjE3MTgyMTU4NksImV4cCI6MTc1ODMwMjE00.eEskbpT8xmJcuim_q2C-hnt2NF6WNUpShCw9mYeqsMPgkUC8WiParLYn0aRMS0QAb"
    }
    ```
 
