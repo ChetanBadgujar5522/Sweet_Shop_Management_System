@@ -69,7 +69,7 @@ The goal of this kata is to **design, build, and test** a complete Sweet Shop Ma
 
 ### 1️⃣ Clone Repository  
 ```bash
-git clone https://github.com/yourusername/sweetshop-management-system.git
+git clone https://github.com/ChetanBadgujar5522/Sweet_Shop_Management_System.git
 cd sweetshop-management-system
 ```
 
