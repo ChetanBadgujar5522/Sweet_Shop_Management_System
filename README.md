@@ -170,20 +170,20 @@ Expected: **High coverage reports following TDD principles**.
 
 ## 📸 Screenshots (Project Output)
 
-1️⃣ **Registration Page**  
-![Registration Page](./screenshots/registration.png)
+### 1️⃣ Registration Page
+![Registration Page](screenshots/Registration.png)
 
-2️⃣ **Login Page**  
-![Login Page](./screenshots/login.png)
+### 2️⃣ Login Page
+![Login Page](screenshots/Login.png)
 
-3️⃣ **Add Sweets**  
-![Add Sweets](./screenshots/add-sweets-1.png)
+### 3️⃣ Add Sweets
+![Add Sweets](screenshots/addSweets.png)
 
-4️⃣ **Add Sweets (Updated)**  
-![Add Sweets](./screenshots/add-sweets-2.png)
+### 4️⃣ Add Sweets (Updated)
+![Add Sweets Updated](screenshots/LoginPage.png)
 
-5️⃣ **Generate Token**  
-![Generate Token](./screenshots/generate-token.png)
+### 5️⃣ Generate Token
+![Generate Token](screenshots/GenerateToken.png)
 
 ---
 
