@@ -174,13 +174,13 @@ Expected: **High coverage reports following TDD principles**.
 ![Registration Page](screenshots/Registration.png)
 
 ### 2️⃣ Login Page
+![Add Sweets Updated](screenshots/LoginPage.png)
+
+### 3️⃣ Login Token  
 ![Login Page](screenshots/Login.png)
 
-### 3️⃣ Add Sweets
+### 4️⃣ Add Sweets
 ![Add Sweets](screenshots/addSweets.png)
-
-### 4️⃣ Add Sweets (Updated)
-![Add Sweets Updated](screenshots/LoginPage.png)
 
 ### 5️⃣ Generate Token
 ![Generate Token](screenshots/GenerateToken.png)
